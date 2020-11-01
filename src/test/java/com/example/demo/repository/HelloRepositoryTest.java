@@ -20,7 +20,7 @@ public class HelloRepositoryTest {
     private HelloRepository helloRepository;
     
     @Test
-    public void find_all_unpicked_tickets_success() {
+    public void find_greeting_by_id() {
         // when
         Greeting greeting = helloRepository.findById(1).get();
      
